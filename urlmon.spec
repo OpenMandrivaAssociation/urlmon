@@ -1,6 +1,6 @@
 %define name	urlmon
 %define version	4.0
-%define release	4mdk
+%define release	%mkrel 4
 
 Summary:	An URL monitor
 Name:		%{name}
