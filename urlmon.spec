@@ -10,6 +10,7 @@ Source0:	%{name}-%{version}.tar.bz2
 Patch0:		urlmon-4.0-perl-path.patch.bz2
 License:	GPL
 Group:		Networking/Other
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Url: http://www.ibiblio.org/pub/Linux/apps/www/mirroring/
 Requires:	perl >= 5
 Requires:	perl-Digest-MD5
