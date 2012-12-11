@@ -1,2 +1,3 @@
 sources:
-  "urlmon-4.0.tar.bz2:"	ef72c50f53978ef9ef2cddf5dbee8009ff1a518e
+  "urlmon-4.0-perl-path.patch.bz2": a1bb8e92e6dcd3379a188e096b3ef082be7792ca
+  "urlmon-4.0.tar.bz2": ef72c50f53978ef9ef2cddf5dbee8009ff1a518e

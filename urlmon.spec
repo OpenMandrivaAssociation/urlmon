@@ -55,3 +55,42 @@ rm -rf $RPM_BUILD_ROOT
 %_bindir/urlmon
 %_bindir/nscape2urlmon
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 4.0-8mdv2010.0
++ Revision: 434586
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 4.0-7mdv2009.0
++ Revision: 261805
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 4.0-6mdv2009.0
++ Revision: 255255
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 4.0-4mdv2008.1
++ Revision: 128806
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import urlmon
+
+
+* Wed Apr 02 2003 Lenny Cartier <lenny@mandrakesoft.com> 4.0-4mdk
+- requires
+- noarch
+
+* Wed Sep 05 2001 Lenny Cartier <lenny@mandrakesoft.com> 4.0-3mdk
+- rebuild
+
+* Tue Apr 10 2001 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 4.0-2mdk
+- sanitized specfile (s/Copyright/License)
+
+* Tue Feb 27 2001 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 4.0-1mdk
+- First Mandrake package
+
+# end of file
