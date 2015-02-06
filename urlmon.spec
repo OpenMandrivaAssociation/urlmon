@@ -1,6 +1,6 @@
 %define name	urlmon
 %define version	4.0
-%define release	%mkrel 8
+%define release	9
 
 Summary:	An URL monitor
 Name:		%{name}
